@@ -65,13 +65,109 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Value"",
+                    ""id"": ""ad55b402-c17c-4cca-9885-b170fc557d42"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Rotation"",
+                    ""type"": ""Button"",
+                    ""id"": ""7f0a4f9c-8cb6-4074-87b7-dabfa1a0da30"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Reload"",
+                    ""type"": ""Button"",
+                    ""id"": ""bea143d3-4b3d-40b9-ac81-6ae54235394f"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Rumble"",
+                    ""type"": ""Button"",
+                    ""id"": ""defeea23-821f-45b5-bc76-cc81c903ee30"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""StopRumble"",
+                    ""type"": ""Button"",
+                    ""id"": ""ced33c15-098b-4fc5-be28-35e8435a1261"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Audio"",
+                    ""type"": ""Button"",
+                    ""id"": ""21b6241e-9d6c-46bd-b4c0-65bd7eef984e"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Audio2"",
+                    ""type"": ""Button"",
+                    ""id"": ""706fd83c-99ca-43a9-ad4c-72672d7217f9"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""SceneTwo"",
+                    ""type"": ""Button"",
+                    ""id"": ""00c68fad-f372-40fb-9f5b-573b63a14a5e"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""SceneThree"",
+                    ""type"": ""Button"",
+                    ""id"": ""39d7a2e8-4c53-45b2-aa7d-e0fb161d2cf2"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""ScneFour"",
+                    ""type"": ""Button"",
+                    ""id"": ""df5f832d-cff6-4a4b-a3b2-b9661a0e44f5"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""SceneFive"",
+                    ""type"": ""Button"",
+                    ""id"": ""0ab9f5b5-8c57-466d-96b7-a36484b45517"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""SceneReload"",
+                    ""type"": ""Button"",
+                    ""id"": ""c1dea6ea-2d0d-40ab-83ee-7981575549da"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
                 {
                     ""name"": """",
                     ""id"": ""d6ad3afd-8b01-485b-a1c7-dd763965095c"",
-                    ""path"": ""<HID::Sony Interactive Entertainment Controller>/button8"",
+                    ""path"": ""<Gamepad>/rightTrigger"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -82,7 +178,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""a98778e0-0f6c-487d-b5ef-0210b98c37ff"",
-                    ""path"": ""<HID::Sony Interactive Entertainment Controller>/stick/left"",
+                    ""path"": ""<Gamepad>/leftStick/left"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -93,7 +189,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""60667a45-9d60-439f-89df-0aa788339aea"",
-                    ""path"": ""<HID::Sony Interactive Entertainment Controller>/stick/right"",
+                    ""path"": ""<Gamepad>/leftStick/right"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -104,7 +200,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""1b058ddd-a5bd-468a-a785-9c748f439117"",
-                    ""path"": ""<HID::Sony Interactive Entertainment Controller>/stick/up"",
+                    ""path"": ""<Gamepad>/leftStick/up"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -115,7 +211,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""d09cb184-5082-4ead-bde0-a8096a2f39f3"",
-                    ""path"": ""<HID::Sony Interactive Entertainment Controller>/stick/down"",
+                    ""path"": ""<Gamepad>/leftStick/down"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -126,11 +222,143 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""768897b5-a782-4499-bd86-dddab0602950"",
-                    ""path"": ""<HID::Sony Interactive Entertainment Controller>/button7"",
+                    ""path"": ""<Gamepad>/leftTrigger"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Smaller"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7a9c5f71-2cf1-4342-a8e8-c11cd91c9da0"",
+                    ""path"": ""<Gamepad>/rightStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2d183bf2-1314-48ba-bc7a-0471cb26c2cc"",
+                    ""path"": ""<Gamepad>/dpad/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Rotation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2ed6bed2-2bcc-4cbf-92c6-3f5983755838"",
+                    ""path"": ""<Gamepad>/select"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Reload"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""06c0c683-54ce-440f-8de6-0ab4dc156089"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Rumble"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0d939226-b48a-4fb9-8c99-9130e4cca42d"",
+                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""StopRumble"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""46bd558b-cdc8-4bdb-9e27-1347c27a067b"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Audio"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5e10068e-1afa-4000-b528-47628e5af063"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Audio2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bc9693a4-b919-48d7-8f4f-5260a862e347"",
+                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SceneTwo"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bb62c312-23d2-4d3b-b5b4-44bc32ced116"",
+                    ""path"": ""<Gamepad>/buttonNorth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SceneThree"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""db6c75d4-679a-48d7-96b5-1bbbc012480e"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ScneFour"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4c3620b1-5f9e-44b1-b32e-ed4ef51a5151"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SceneFive"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""77521ac8-c832-4519-8f28-e7afb453ef74"",
+                    ""path"": ""<Gamepad>/dpad/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SceneReload"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -231,6 +459,18 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         m_Gameplay_DraaiOmhoog = m_Gameplay.FindAction("DraaiOmhoog", throwIfNotFound: true);
         m_Gameplay_DraaiOmlaag = m_Gameplay.FindAction("DraaiOmlaag", throwIfNotFound: true);
         m_Gameplay_Smaller = m_Gameplay.FindAction("Smaller", throwIfNotFound: true);
+        m_Gameplay_Move = m_Gameplay.FindAction("Move", throwIfNotFound: true);
+        m_Gameplay_Rotation = m_Gameplay.FindAction("Rotation", throwIfNotFound: true);
+        m_Gameplay_Reload = m_Gameplay.FindAction("Reload", throwIfNotFound: true);
+        m_Gameplay_Rumble = m_Gameplay.FindAction("Rumble", throwIfNotFound: true);
+        m_Gameplay_StopRumble = m_Gameplay.FindAction("StopRumble", throwIfNotFound: true);
+        m_Gameplay_Audio = m_Gameplay.FindAction("Audio", throwIfNotFound: true);
+        m_Gameplay_Audio2 = m_Gameplay.FindAction("Audio2", throwIfNotFound: true);
+        m_Gameplay_SceneTwo = m_Gameplay.FindAction("SceneTwo", throwIfNotFound: true);
+        m_Gameplay_SceneThree = m_Gameplay.FindAction("SceneThree", throwIfNotFound: true);
+        m_Gameplay_ScneFour = m_Gameplay.FindAction("ScneFour", throwIfNotFound: true);
+        m_Gameplay_SceneFive = m_Gameplay.FindAction("SceneFive", throwIfNotFound: true);
+        m_Gameplay_SceneReload = m_Gameplay.FindAction("SceneReload", throwIfNotFound: true);
         // Kleur
         m_Kleur = asset.FindActionMap("Kleur", throwIfNotFound: true);
         m_Kleur_Rondje = m_Kleur.FindAction("Rondje", throwIfNotFound: true);
@@ -292,6 +532,18 @@ public class @PlayerControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Gameplay_DraaiOmhoog;
     private readonly InputAction m_Gameplay_DraaiOmlaag;
     private readonly InputAction m_Gameplay_Smaller;
+    private readonly InputAction m_Gameplay_Move;
+    private readonly InputAction m_Gameplay_Rotation;
+    private readonly InputAction m_Gameplay_Reload;
+    private readonly InputAction m_Gameplay_Rumble;
+    private readonly InputAction m_Gameplay_StopRumble;
+    private readonly InputAction m_Gameplay_Audio;
+    private readonly InputAction m_Gameplay_Audio2;
+    private readonly InputAction m_Gameplay_SceneTwo;
+    private readonly InputAction m_Gameplay_SceneThree;
+    private readonly InputAction m_Gameplay_ScneFour;
+    private readonly InputAction m_Gameplay_SceneFive;
+    private readonly InputAction m_Gameplay_SceneReload;
     public struct GameplayActions
     {
         private @PlayerControls m_Wrapper;
@@ -302,6 +554,18 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         public InputAction @DraaiOmhoog => m_Wrapper.m_Gameplay_DraaiOmhoog;
         public InputAction @DraaiOmlaag => m_Wrapper.m_Gameplay_DraaiOmlaag;
         public InputAction @Smaller => m_Wrapper.m_Gameplay_Smaller;
+        public InputAction @Move => m_Wrapper.m_Gameplay_Move;
+        public InputAction @Rotation => m_Wrapper.m_Gameplay_Rotation;
+        public InputAction @Reload => m_Wrapper.m_Gameplay_Reload;
+        public InputAction @Rumble => m_Wrapper.m_Gameplay_Rumble;
+        public InputAction @StopRumble => m_Wrapper.m_Gameplay_StopRumble;
+        public InputAction @Audio => m_Wrapper.m_Gameplay_Audio;
+        public InputAction @Audio2 => m_Wrapper.m_Gameplay_Audio2;
+        public InputAction @SceneTwo => m_Wrapper.m_Gameplay_SceneTwo;
+        public InputAction @SceneThree => m_Wrapper.m_Gameplay_SceneThree;
+        public InputAction @ScneFour => m_Wrapper.m_Gameplay_ScneFour;
+        public InputAction @SceneFive => m_Wrapper.m_Gameplay_SceneFive;
+        public InputAction @SceneReload => m_Wrapper.m_Gameplay_SceneReload;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -329,6 +593,42 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @Smaller.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSmaller;
                 @Smaller.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSmaller;
                 @Smaller.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSmaller;
+                @Move.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMove;
+                @Move.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMove;
+                @Move.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMove;
+                @Rotation.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRotation;
+                @Rotation.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRotation;
+                @Rotation.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRotation;
+                @Reload.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnReload;
+                @Reload.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnReload;
+                @Reload.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnReload;
+                @Rumble.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRumble;
+                @Rumble.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRumble;
+                @Rumble.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRumble;
+                @StopRumble.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnStopRumble;
+                @StopRumble.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnStopRumble;
+                @StopRumble.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnStopRumble;
+                @Audio.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnAudio;
+                @Audio.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnAudio;
+                @Audio.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnAudio;
+                @Audio2.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnAudio2;
+                @Audio2.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnAudio2;
+                @Audio2.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnAudio2;
+                @SceneTwo.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSceneTwo;
+                @SceneTwo.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSceneTwo;
+                @SceneTwo.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSceneTwo;
+                @SceneThree.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSceneThree;
+                @SceneThree.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSceneThree;
+                @SceneThree.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSceneThree;
+                @ScneFour.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnScneFour;
+                @ScneFour.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnScneFour;
+                @ScneFour.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnScneFour;
+                @SceneFive.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSceneFive;
+                @SceneFive.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSceneFive;
+                @SceneFive.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSceneFive;
+                @SceneReload.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSceneReload;
+                @SceneReload.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSceneReload;
+                @SceneReload.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSceneReload;
             }
             m_Wrapper.m_GameplayActionsCallbackInterface = instance;
             if (instance != null)
@@ -351,6 +651,42 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @Smaller.started += instance.OnSmaller;
                 @Smaller.performed += instance.OnSmaller;
                 @Smaller.canceled += instance.OnSmaller;
+                @Move.started += instance.OnMove;
+                @Move.performed += instance.OnMove;
+                @Move.canceled += instance.OnMove;
+                @Rotation.started += instance.OnRotation;
+                @Rotation.performed += instance.OnRotation;
+                @Rotation.canceled += instance.OnRotation;
+                @Reload.started += instance.OnReload;
+                @Reload.performed += instance.OnReload;
+                @Reload.canceled += instance.OnReload;
+                @Rumble.started += instance.OnRumble;
+                @Rumble.performed += instance.OnRumble;
+                @Rumble.canceled += instance.OnRumble;
+                @StopRumble.started += instance.OnStopRumble;
+                @StopRumble.performed += instance.OnStopRumble;
+                @StopRumble.canceled += instance.OnStopRumble;
+                @Audio.started += instance.OnAudio;
+                @Audio.performed += instance.OnAudio;
+                @Audio.canceled += instance.OnAudio;
+                @Audio2.started += instance.OnAudio2;
+                @Audio2.performed += instance.OnAudio2;
+                @Audio2.canceled += instance.OnAudio2;
+                @SceneTwo.started += instance.OnSceneTwo;
+                @SceneTwo.performed += instance.OnSceneTwo;
+                @SceneTwo.canceled += instance.OnSceneTwo;
+                @SceneThree.started += instance.OnSceneThree;
+                @SceneThree.performed += instance.OnSceneThree;
+                @SceneThree.canceled += instance.OnSceneThree;
+                @ScneFour.started += instance.OnScneFour;
+                @ScneFour.performed += instance.OnScneFour;
+                @ScneFour.canceled += instance.OnScneFour;
+                @SceneFive.started += instance.OnSceneFive;
+                @SceneFive.performed += instance.OnSceneFive;
+                @SceneFive.canceled += instance.OnSceneFive;
+                @SceneReload.started += instance.OnSceneReload;
+                @SceneReload.performed += instance.OnSceneReload;
+                @SceneReload.canceled += instance.OnSceneReload;
             }
         }
     }
@@ -420,6 +756,18 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         void OnDraaiOmhoog(InputAction.CallbackContext context);
         void OnDraaiOmlaag(InputAction.CallbackContext context);
         void OnSmaller(InputAction.CallbackContext context);
+        void OnMove(InputAction.CallbackContext context);
+        void OnRotation(InputAction.CallbackContext context);
+        void OnReload(InputAction.CallbackContext context);
+        void OnRumble(InputAction.CallbackContext context);
+        void OnStopRumble(InputAction.CallbackContext context);
+        void OnAudio(InputAction.CallbackContext context);
+        void OnAudio2(InputAction.CallbackContext context);
+        void OnSceneTwo(InputAction.CallbackContext context);
+        void OnSceneThree(InputAction.CallbackContext context);
+        void OnScneFour(InputAction.CallbackContext context);
+        void OnSceneFive(InputAction.CallbackContext context);
+        void OnSceneReload(InputAction.CallbackContext context);
     }
     public interface IKleurActions
     {

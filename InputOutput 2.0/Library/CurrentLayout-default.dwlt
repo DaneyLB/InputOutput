@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Inspector
   m_RootView: {fileID: 3}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -44,10 +44,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 608, y: 492}
-  m_MaxSize: {x: 18003, y: 14042}
+  m_MinSize: {x: 609, y: 471}
+  m_MaxSize: {x: 18004, y: 14042}
   vertical: 1
-  controlID: 15
+  controlID: 94
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-  m_MinSize: {x: 608, y: 492}
-  m_MaxSize: {x: 18003, y: 14042}
+  m_MinSize: {x: 609, y: 471}
+  m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 16
+  controlID: 95
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,10 +161,10 @@ MonoBehaviour:
     y: 0
     width: 1396
     height: 947
-  m_MinSize: {x: 333, y: 492}
+  m_MinSize: {x: 333, y: 471}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 17
+  controlID: 96
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,10 +186,10 @@ MonoBehaviour:
     y: 0
     width: 1396
     height: 596
-  m_MinSize: {x: 303, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 302, y: 200}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 193
+  controlID: 97
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,8 +209,8 @@ MonoBehaviour:
     y: 0
     width: 297
     height: 596
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_MinSize: {x: 333, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 263
+  controlID: 132
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,8 +343,8 @@ MonoBehaviour:
     y: 0
     width: 524
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 24}
   m_Panes:
   - {fileID: 24}
@@ -378,8 +378,8 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_ActionMapsTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 378c5e5f
-    m_LastClickedID: 1600031799
+    m_SelectedIDs: 93834867
+    m_LastClickedID: 1732805523
     m_ExpandedIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -399,10 +399,10 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
   m_ActionsTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c694211d
-    m_LastClickedID: 488740038
-    m_ExpandedIDs: 84791c962e67f2b3675baeb9d902f4d150602ae3c694211de5997d2a11387a4a378c5e5ffbc9906593834867b3c47471
+    scrollPos: {x: 0, y: 132}
+    m_SelectedIDs: a8e78495
+    m_LastClickedID: -1786452056
+    m_ExpandedIDs: a6afe190a8e784959be6d39584791c966c9ba59b25039c9f08cfb4a493c9a9a9d30153ac2e67f2b3675baeb9d902f4d1d78eb4d4ed62dad98af829dd50602ae3b17358f21bf725f6d0b682f8c694211dcfb3ee25d80fbc29e5997d2a568e3a3311387a4a378c5e5ffbc9906593834867b3c47471
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -424,7 +424,7 @@ MonoBehaviour:
     m_AdvancedDropdownState:
       states:
       - itemId: 371857150
-        selectedIndex: 8
+        selectedIndex: 0
         scroll: {x: 0, y: 0}
       - itemId: 1277967432
         selectedIndex: 1
@@ -433,7 +433,7 @@ MonoBehaviour:
         selectedIndex: 1
         scroll: {x: 0, y: 63.5}
       - itemId: 403810634
-        selectedIndex: 1
+        selectedIndex: 0
         scroll: {x: 0, y: 0}
       - itemId: 998472819
         selectedIndex: -1
@@ -449,6 +449,24 @@ MonoBehaviour:
         scroll: {x: 0, y: 0}
       - itemId: -1225648900
         selectedIndex: -1
+        scroll: {x: 0, y: 0}
+      - itemId: 378383742
+        selectedIndex: -1
+        scroll: {x: 0, y: 0}
+      - itemId: 1503333380
+        selectedIndex: -1
+        scroll: {x: 0, y: 0}
+      - itemId: 2034374643
+        selectedIndex: -1
+        scroll: {x: 0, y: 0}
+      - itemId: -2053868959
+        selectedIndex: -1
+        scroll: {x: 0, y: 0}
+      - itemId: -1253416362
+        selectedIndex: -1
+        scroll: {x: 0, y: 0}
+      - itemId: 300744546
+        selectedIndex: 0
         scroll: {x: 0, y: 0}
     m_ManualPathEditMode: 0
   m_ActionAssetManager:
@@ -481,46 +499,153 @@ MonoBehaviour:
       \"name\": \"Smaller\",\n                    \"type\": \"Button\",\n                   
       \"id\": \"2ce287d8-bf96-4345-bb51-e2c02122942e\",\n                    \"expectedControlType\":
       \"Button\",\n                    \"processors\": \"\",\n                   
+      \"interactions\": \"\"\n                },\n                {\n                   
+      \"name\": \"Move\",\n                    \"type\": \"Value\",\n                   
+      \"id\": \"ad55b402-c17c-4cca-9885-b170fc557d42\",\n                    \"expectedControlType\":
+      \"\",\n                    \"processors\": \"\",\n                    \"interactions\":
+      \"\"\n                },\n                {\n                    \"name\":
+      \"Rotation\",\n                    \"type\": \"Button\",\n                   
+      \"id\": \"7f0a4f9c-8cb6-4074-87b7-dabfa1a0da30\",\n                    \"expectedControlType\":
+      \"Button\",\n                    \"processors\": \"\",\n                   
+      \"interactions\": \"\"\n                },\n                {\n                   
+      \"name\": \"Reload\",\n                    \"type\": \"Button\",\n                   
+      \"id\": \"bea143d3-4b3d-40b9-ac81-6ae54235394f\",\n                    \"expectedControlType\":
+      \"Button\",\n                    \"processors\": \"\",\n                   
+      \"interactions\": \"\"\n                },\n                {\n                   
+      \"name\": \"Rumble\",\n                    \"type\": \"Button\",\n                   
+      \"id\": \"defeea23-821f-45b5-bc76-cc81c903ee30\",\n                    \"expectedControlType\":
+      \"Button\",\n                    \"processors\": \"\",\n                   
+      \"interactions\": \"\"\n                },\n                {\n                   
+      \"name\": \"StopRumble\",\n                    \"type\": \"Button\",\n                   
+      \"id\": \"ced33c15-098b-4fc5-be28-35e8435a1261\",\n                    \"expectedControlType\":
+      \"Button\",\n                    \"processors\": \"\",\n                   
+      \"interactions\": \"\"\n                },\n                {\n                   
+      \"name\": \"Audio\",\n                    \"type\": \"Button\",\n                   
+      \"id\": \"21b6241e-9d6c-46bd-b4c0-65bd7eef984e\",\n                    \"expectedControlType\":
+      \"Button\",\n                    \"processors\": \"\",\n                   
+      \"interactions\": \"\"\n                },\n                {\n                   
+      \"name\": \"Audio2\",\n                    \"type\": \"Button\",\n                   
+      \"id\": \"706fd83c-99ca-43a9-ad4c-72672d7217f9\",\n                    \"expectedControlType\":
+      \"Button\",\n                    \"processors\": \"\",\n                   
+      \"interactions\": \"\"\n                },\n                {\n                   
+      \"name\": \"SceneTwo\",\n                    \"type\": \"Button\",\n                   
+      \"id\": \"00c68fad-f372-40fb-9f5b-573b63a14a5e\",\n                    \"expectedControlType\":
+      \"Button\",\n                    \"processors\": \"\",\n                   
+      \"interactions\": \"\"\n                },\n                {\n                   
+      \"name\": \"SceneThree\",\n                    \"type\": \"Button\",\n                   
+      \"id\": \"39d7a2e8-4c53-45b2-aa7d-e0fb161d2cf2\",\n                    \"expectedControlType\":
+      \"Button\",\n                    \"processors\": \"\",\n                   
+      \"interactions\": \"\"\n                },\n                {\n                   
+      \"name\": \"ScneFour\",\n                    \"type\": \"Button\",\n                   
+      \"id\": \"df5f832d-cff6-4a4b-a3b2-b9661a0e44f5\",\n                    \"expectedControlType\":
+      \"Button\",\n                    \"processors\": \"\",\n                   
+      \"interactions\": \"\"\n                },\n                {\n                   
+      \"name\": \"SceneFive\",\n                    \"type\": \"Button\",\n                   
+      \"id\": \"0ab9f5b5-8c57-466d-96b7-a36484b45517\",\n                    \"expectedControlType\":
+      \"Button\",\n                    \"processors\": \"\",\n                   
+      \"interactions\": \"\"\n                },\n                {\n                   
+      \"name\": \"SceneReload\",\n                    \"type\": \"Button\",\n                   
+      \"id\": \"c1dea6ea-2d0d-40ab-83ee-7981575549da\",\n                    \"expectedControlType\":
+      \"Button\",\n                    \"processors\": \"\",\n                   
       \"interactions\": \"\"\n                }\n            ],\n            \"bindings\":
       [\n                {\n                    \"name\": \"\",\n                   
       \"id\": \"d6ad3afd-8b01-485b-a1c7-dd763965095c\",\n                    \"path\":
-      \"<HID::Sony Interactive Entertainment Controller>/button8\",\n                   
-      \"interactions\": \"\",\n                    \"processors\": \"\",\n                   
-      \"groups\": \"\",\n                    \"action\": \"Grow\",\n                   
-      \"isComposite\": false,\n                    \"isPartOfComposite\": false\n               
-      },\n                {\n                    \"name\": \"\",\n                   
-      \"id\": \"a98778e0-0f6c-487d-b5ef-0210b98c37ff\",\n                    \"path\":
-      \"<HID::Sony Interactive Entertainment Controller>/stick/left\",\n                   
-      \"interactions\": \"\",\n                    \"processors\": \"\",\n                   
-      \"groups\": \"\",\n                    \"action\": \"DraaiLinks\",\n                   
+      \"<Gamepad>/rightTrigger\",\n                    \"interactions\": \"\",\n                   
+      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
+      \"action\": \"Grow\",\n                    \"isComposite\": false,\n                   
+      \"isPartOfComposite\": false\n                },\n                {\n                   
+      \"name\": \"\",\n                    \"id\": \"a98778e0-0f6c-487d-b5ef-0210b98c37ff\",\n                   
+      \"path\": \"<Gamepad>/leftStick/left\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"\",\n                    \"action\": \"DraaiLinks\",\n                   
       \"isComposite\": false,\n                    \"isPartOfComposite\": false\n               
       },\n                {\n                    \"name\": \"\",\n                   
       \"id\": \"60667a45-9d60-439f-89df-0aa788339aea\",\n                    \"path\":
-      \"<HID::Sony Interactive Entertainment Controller>/stick/right\",\n                   
-      \"interactions\": \"\",\n                    \"processors\": \"\",\n                   
-      \"groups\": \"\",\n                    \"action\": \"DraaiRechts\",\n                   
-      \"isComposite\": false,\n                    \"isPartOfComposite\": false\n               
-      },\n                {\n                    \"name\": \"\",\n                   
-      \"id\": \"1b058ddd-a5bd-468a-a785-9c748f439117\",\n                    \"path\":
-      \"<HID::Sony Interactive Entertainment Controller>/stick/up\",\n                   
-      \"interactions\": \"\",\n                    \"processors\": \"\",\n                   
-      \"groups\": \"\",\n                    \"action\": \"DraaiOmhoog\",\n                   
+      \"<Gamepad>/leftStick/right\",\n                    \"interactions\": \"\",\n                   
+      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
+      \"action\": \"DraaiRechts\",\n                    \"isComposite\": false,\n                   
+      \"isPartOfComposite\": false\n                },\n                {\n                   
+      \"name\": \"\",\n                    \"id\": \"1b058ddd-a5bd-468a-a785-9c748f439117\",\n                   
+      \"path\": \"<Gamepad>/leftStick/up\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"\",\n                    \"action\": \"DraaiOmhoog\",\n                   
       \"isComposite\": false,\n                    \"isPartOfComposite\": false\n               
       },\n                {\n                    \"name\": \"\",\n                   
       \"id\": \"d09cb184-5082-4ead-bde0-a8096a2f39f3\",\n                    \"path\":
-      \"<HID::Sony Interactive Entertainment Controller>/stick/down\",\n                   
-      \"interactions\": \"\",\n                    \"processors\": \"\",\n                   
-      \"groups\": \"\",\n                    \"action\": \"DraaiOmlaag\",\n                   
+      \"<Gamepad>/leftStick/down\",\n                    \"interactions\": \"\",\n                   
+      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
+      \"action\": \"DraaiOmlaag\",\n                    \"isComposite\": false,\n                   
+      \"isPartOfComposite\": false\n                },\n                {\n                   
+      \"name\": \"\",\n                    \"id\": \"768897b5-a782-4499-bd86-dddab0602950\",\n                   
+      \"path\": \"<Gamepad>/leftTrigger\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"\",\n                    \"action\": \"Smaller\",\n                    \"isComposite\":
+      false,\n                    \"isPartOfComposite\": false\n                },\n               
+      {\n                    \"name\": \"\",\n                    \"id\": \"7a9c5f71-2cf1-4342-a8e8-c11cd91c9da0\",\n                   
+      \"path\": \"<Gamepad>/rightStick\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"\",\n                    \"action\": \"Move\",\n                    \"isComposite\":
+      false,\n                    \"isPartOfComposite\": false\n                },\n               
+      {\n                    \"name\": \"\",\n                    \"id\": \"2d183bf2-1314-48ba-bc7a-0471cb26c2cc\",\n                   
+      \"path\": \"<Gamepad>/dpad/left\",\n                    \"interactions\": \"\",\n                   
+      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
+      \"action\": \"Rotation\",\n                    \"isComposite\": false,\n                   
+      \"isPartOfComposite\": false\n                },\n                {\n                   
+      \"name\": \"\",\n                    \"id\": \"2ed6bed2-2bcc-4cbf-92c6-3f5983755838\",\n                   
+      \"path\": \"<Gamepad>/select\",\n                    \"interactions\": \"\",\n                   
+      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
+      \"action\": \"Reload\",\n                    \"isComposite\": false,\n                   
+      \"isPartOfComposite\": false\n                },\n                {\n                   
+      \"name\": \"\",\n                    \"id\": \"06c0c683-54ce-440f-8de6-0ab4dc156089\",\n                   
+      \"path\": \"<Gamepad>/rightShoulder\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"\",\n                    \"action\": \"Rumble\",\n                    \"isComposite\":
+      false,\n                    \"isPartOfComposite\": false\n                },\n               
+      {\n                    \"name\": \"\",\n                    \"id\": \"0d939226-b48a-4fb9-8c99-9130e4cca42d\",\n                   
+      \"path\": \"<Gamepad>/leftShoulder\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"\",\n                    \"action\": \"StopRumble\",\n                   
       \"isComposite\": false,\n                    \"isPartOfComposite\": false\n               
       },\n                {\n                    \"name\": \"\",\n                   
-      \"id\": \"768897b5-a782-4499-bd86-dddab0602950\",\n                    \"path\":
-      \"<HID::Sony Interactive Entertainment Controller>/button7\",\n                   
-      \"interactions\": \"\",\n                    \"processors\": \"\",\n                   
-      \"groups\": \"\",\n                    \"action\": \"Smaller\",\n                   
+      \"id\": \"46bd558b-cdc8-4bdb-9e27-1347c27a067b\",\n                    \"path\":
+      \"<Gamepad>/start\",\n                    \"interactions\": \"\",\n                   
+      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
+      \"action\": \"Audio\",\n                    \"isComposite\": false,\n                   
+      \"isPartOfComposite\": false\n                },\n                {\n                   
+      \"name\": \"\",\n                    \"id\": \"5e10068e-1afa-4000-b528-47628e5af063\",\n                   
+      \"path\": \"\",\n                    \"interactions\": \"\",\n                   
+      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
+      \"action\": \"Audio2\",\n                    \"isComposite\": false,\n                   
+      \"isPartOfComposite\": false\n                },\n                {\n                   
+      \"name\": \"\",\n                    \"id\": \"bc9693a4-b919-48d7-8f4f-5260a862e347\",\n                   
+      \"path\": \"<Gamepad>/buttonWest\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"\",\n                    \"action\": \"SceneTwo\",\n                    \"isComposite\":
+      false,\n                    \"isPartOfComposite\": false\n                },\n               
+      {\n                    \"name\": \"\",\n                    \"id\": \"bb62c312-23d2-4d3b-b5b4-44bc32ced116\",\n                   
+      \"path\": \"<Gamepad>/buttonNorth\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"\",\n                    \"action\": \"SceneThree\",\n                   
       \"isComposite\": false,\n                    \"isPartOfComposite\": false\n               
-      }\n            ]\n        },\n        {\n            \"name\": \"Kleur\",\n           
-      \"id\": \"1be9c237-94b7-4ede-aed3-d00630528cde\",\n            \"actions\":
-      [\n                {\n                    \"name\": \"Rondje\",\n                   
+      },\n                {\n                    \"name\": \"\",\n                   
+      \"id\": \"db6c75d4-679a-48d7-96b5-1bbbc012480e\",\n                    \"path\":
+      \"<Gamepad>/buttonEast\",\n                    \"interactions\": \"\",\n                   
+      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
+      \"action\": \"ScneFour\",\n                    \"isComposite\": false,\n                   
+      \"isPartOfComposite\": false\n                },\n                {\n                   
+      \"name\": \"\",\n                    \"id\": \"4c3620b1-5f9e-44b1-b32e-ed4ef51a5151\",\n                   
+      \"path\": \"<Gamepad>/buttonSouth\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"\",\n                    \"action\": \"SceneFive\",\n                   
+      \"isComposite\": false,\n                    \"isPartOfComposite\": false\n               
+      },\n                {\n                    \"name\": \"\",\n                   
+      \"id\": \"77521ac8-c832-4519-8f28-e7afb453ef74\",\n                    \"path\":
+      \"<Gamepad>/dpad/up\",\n                    \"interactions\": \"\",\n                   
+      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
+      \"action\": \"SceneReload\",\n                    \"isComposite\": false,\n                   
+      \"isPartOfComposite\": false\n                }\n            ]\n        },\n       
+      {\n            \"name\": \"Kleur\",\n            \"id\": \"1be9c237-94b7-4ede-aed3-d00630528cde\",\n           
+      \"actions\": [\n                {\n                    \"name\": \"Rondje\",\n                   
       \"type\": \"Button\",\n                    \"id\": \"c26bdc5e-324a-4837-89d3-edfbef0087af\",\n                   
       \"expectedControlType\": \"Button\",\n                    \"processors\": \"\",\n                   
       \"interactions\": \"\"\n                },\n                {\n                   
@@ -659,9 +784,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -32.276497, y: -19.73072, z: 1.5544438}
+    m_Target: {x: -65.71692, y: -36.0974, z: 64.56126}
     speed: 2
-    m_Value: {x: -32.276497, y: -19.73072, z: 1.5544438}
+    m_Value: {x: -65.71692, y: -36.0974, z: 64.56126}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -707,13 +832,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.16713716, y: 0.7282986, z: -0.19125761, w: -0.636451}
+    m_Target: {x: -0.17253816, y: 0.37540954, z: -0.07134938, w: -0.9078671}
     speed: 2
-    m_Value: {x: -0.16713691, y: 0.7282975, z: -0.19125731, w: -0.63645}
+    m_Value: {x: -0.17253686, y: 0.3754067, z: -0.071348846, w: -0.9078603}
   m_Size:
-    m_Target: 26.181326
+    m_Target: 53.148594
     speed: 2
-    m_Value: 26.181326
+    m_Value: 50.859898
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -767,9 +892,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 32360000
-      m_LastClickedID: 13874
-      m_ExpandedIDs: 4afbffff
+      m_SelectedIDs: 50370000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6e8fffff928fffffb68fffffda8fffffae94ffffc6a6ffff62a7ffffa4a7ffffeca8ffffb4a9fffff6b1ffffacb2ffffd6b2ffff2cb9ffff6ab9ffff94b9ffff8acbffff1accffff54ccffff80ccfffffecdffffb6d7ffff2ad8ffff36d9ffff60d9ffff9edafffffadaffff96e6fffff4e6ffff4ae7fffff4e7ffff90e9ffff02eaffff64eaffff18ebffffd4ebffff1ef2ffff64f3ffffdef3ffff50f4ffffd6f5fffff6f6ffff60f9ffffae3b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -976,34 +1101,35 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Media College\Jaar2\Projectnieuw\InputOutput 2.0
+  m_LastProjectPath: D:\Media College\Jaar2\MAININPUTOUTPUT\Input-OUtput2\InputOutput
+    2.0
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 72360000
-    m_LastClickedID: 13938
-    m_ExpandedIDs: 000000006e36000000ca9a3b
+    m_SelectedIDs: f8360000
+    m_LastClickedID: 14072
+    m_ExpandedIDs: 00000000f036000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Materials
+      m_OriginalName: Materials
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 14070
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -1017,7 +1143,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006e360000
+    m_ExpandedIDs: 00000000f0360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1061,7 +1187,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 14}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1072,7 +1198,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 110
+  m_DirectoriesAreaWidth: 139
 --- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52

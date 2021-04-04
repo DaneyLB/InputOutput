@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 
 public class Cube : MonoBehaviour
@@ -9,7 +10,15 @@ public class Cube : MonoBehaviour
     public Material myMaterial;
 
     PlayerControls controls;
-    
+
+    Vector2 move;
+
+    Gamepad gamepad;
+
+    public float position;
+
+    public AudioSource audioSource;
+
     void Awake()
     {
         controls = new PlayerControls();
@@ -21,22 +30,28 @@ public class Cube : MonoBehaviour
         controls.Gameplay.DraaiOmhoog.performed += ctx => DraaiOmhoog();
         controls.Gameplay.DraaiOmlaag.performed += ctx => DraaiOmlaag();
         controls.Kleur.Rondje.performed += ctx => KleurRondje();
-
+        controls.Gameplay.Move.performed += ctx => move = ctx.ReadValue<Vector2>();
+        controls.Gameplay.Move.canceled += ctx => move = Vector2.zero;
+        controls.Gameplay.Reload.performed += ctx => Reload();
+        controls.Gameplay.Rumble.performed += ctx => Rumble();
+        controls.Gameplay.StopRumble.performed += ctx => StopRumble();
+        controls.Gameplay.Audio.performed += ctx => Audio();
+        controls.Gameplay.SceneTwo.performed += ctx => SceneTwo();
+        controls.Gameplay.SceneThree.performed += ctx => SceneThree();
+        controls.Gameplay.ScneFour.performed += ctx => SceneFour();
+        controls.Gameplay.SceneFive.performed += ctx => SceneFive();
+        controls.Gameplay.SceneReload.performed += ctx => SceneReload();
     }
 
-    void Update()
+    void Update()                                                   
     {
-        
+        Vector2 m = new Vector2(move.x, move.y) * Time.deltaTime;
+        transform.Translate(m, Space.World);
     }
 
     void Groei()
     {
         transform.localScale *= 1.1f;
-    }
-
-    void KleurRondje()
-    {
-        
     }
 
     void Kleiner()
@@ -46,12 +61,12 @@ public class Cube : MonoBehaviour
 
     void DraaiLinks()
     {
-        transform.Rotate(new Vector3(0f, 0f, 2f));
+      transform.Rotate(new Vector3(0f, 0f, 2f));
     }
 
     void DraaiRechts()
     {
-        transform.Rotate(new Vector3(0f, 0f, -2f));
+       transform.Rotate(new Vector3(0f, 0f, -2f));
     }
 
     void DraaiOmhoog()
@@ -62,6 +77,56 @@ public class Cube : MonoBehaviour
     void DraaiOmlaag()
     {
         transform.Rotate(new Vector3(0f, -2f, 0f));
+    }
+
+    void Reload()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
+
+    void Rumble()
+    {
+        Gamepad.current.SetMotorSpeeds(1f, 1f);
+    }
+
+    void StopRumble()
+    {
+        Gamepad.current.SetMotorSpeeds(0f, 0f);
+    }
+
+    void Audio()
+    {
+        audioSource.Play();                                                                                    
+    }
+
+    void KleurRondje()
+    {
+
+    }
+
+    void SceneTwo()
+    {
+        SceneManager.LoadScene("Scene1");
+    }
+
+    void SceneThree()
+    {
+        SceneManager.LoadScene("Scene2");
+    }
+
+    void SceneFour()
+    {
+        SceneManager.LoadScene("Scene3");
+    }
+
+    void SceneFive()
+    {
+        SceneManager.LoadScene("Scene4");
+    }
+
+    void SceneReload()
+    {
+       
     }
 
     void OnEnable()
